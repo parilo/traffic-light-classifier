@@ -30,4 +30,4 @@ git clone https://github.com/parilo/traffic-light-classifier
 cd traffic-light-classifier
 jupyter notebook
 ```
-3. See `Traffic_Lights_Classifier.ipynb` notebook.
+See `Traffic_Lights_Classifier.ipynb` notebook.
