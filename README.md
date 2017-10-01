@@ -1,10 +1,11 @@
 # Self-Driving Car Engineer Nanodegree
 # Deep Learning
-## Project: Build a Traffic Sign Recognition Program
+## Traffic Lights Classifier
 
 ### Overview
 
-In this project, you will use what you've learned about deep neural networks and convolutional neural networks to classify traffic signs. You will train a model so it can decode traffic signs from natural images by using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the model is trained, you will then test your model program on new images of traffic signs you find on the web, or, if you're feeling adventurous pictures of traffic signs you find locally!
+This is traffic lights classifer for [the final project](https://github.com/parilo/CarND-Capstone) of Udacity SDC Nanodegree. Dataset for training classifier are available here:
+https://github.com/jorcus/CarND-Capstone-Dataset
 
 ### Dependencies
 
@@ -24,13 +25,9 @@ Run this command at the terminal prompt to install [OpenCV](http://opencv.org/).
 
 ### Dataset
 
-1. [Download the dataset](https://d17h27t6h515a5.cloudfront.net/topher/2016/November/581faac4_traffic-signs-data/traffic-signs-data.zip). This is a pickled dataset in which we've already resized the images to 32x32.
-2. Clone the project and start the notebook.
 ```
-git clone https://github.com/udacity/CarND-Traffic-Signs
-cd CarND-Traffic-Signs
-jupyter notebook Traffic_Signs_Recognition.ipynb
+git clone https://github.com/parilo/traffic-light-classifier
+cd traffic-light-classifier
+jupyter notebook
 ```
-3. Follow the instructions in the `Traffic_Signs_Recognition.ipynb` notebook.
-
-# traffic-light-classifier
+3. See `Traffic_Lights_Classifier.ipynb` notebook.
